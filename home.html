@@ -1,0 +1,109 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Shopping App</title>  
+    <link rel="stylesheet" href="styles.css">
+</head>  
+<body class="index-page">  
+    <div class="header">
+        <img src="1.jpg" alt="Shopping Page Hero Banner" width="200" height="200"> 
+        <style>  
+            h1 {  
+                width: fit-content; /* 或者一个具体的宽度值 */  
+                margin-left: auto;  
+                margin-right: auto;  
+            }  
+        </style>  
+        <h1>Zhuoyuan School</h1>   
+      </div>    
+      <div class="topnav">  
+        <a href="home.html" onclick="showPage('homepage')">home</a>  
+        <a href="index.html" onclick="showPage('createUserPage')">Create User</a>  
+        <a href="login.html" onclick="showPage('loginPage')">Login</a>  
+        <a href="About Us.html">About Us</a>
+        <a href="Contact.html">Contact</a>  
+      </div> 
+    </header>  
+    <style>  
+ .images-container img {  
+    width: 1900px;   /* 固定宽度 */  
+    height: 400px;  /* 固定高度 */  
+}
+
+       
+        .banner {  
+            width: 100%;  
+            height: 200px; /* 根据需要调整高度 */  
+            background-image: url('your-background-image.jpg'); /* 替换为你的背景图片路径 */  
+            background-size: cover; /* 使背景图片覆盖整个横幅 */  
+            background-position: center; /* 使背景图片居中 */  
+            background-color: #001aff; /* 设置背景颜色，这里用的是绿色 */
+            color: rgb(0, 0, 0);  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            text-align: center;  
+            font-size: 2rem; /* 调整字体大小 */  
+            font-weight: bold;  
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 添加文本阴影 */  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="banner">  
+        Welcome to Zhuoyuan School's course purchasing website!  
+    </div>  
+    <div class="images-container">  
+        <img src="11.jpg" alt="第一张图片">  
+        <style>  
+            /* 可选的样式，用于美化按钮 */  
+            .jump-button {  
+                background-color: #4CAF50; /* 绿色背景 */  
+                border: none; /* 去掉边框 */  
+                color: white; /* 白色文字 */  
+                padding: 15px 32px; /* 内边距 */  
+                text-align: center; /* 文字居中 */  
+                text-decoration: none; /* 去掉下划线 */  
+                display: inline-block; /* 行内块元素 */  
+                font-size: 16px; /* 字体大小 */  
+                margin: 4px 2px; /* 外边距 */  
+                cursor: pointer; /* 鼠标悬停时变为手型 */  
+                border-radius: 8px; /* 圆角边框 */  
+                
+            }  
+            
+      
+            .jump-button:hover {  
+                background-color: #45a049; /* 鼠标悬停时改变背景颜色 */  
+            }  
+       
+        </style>  
+    </head>  
+    <body>  
+      
+        <!-- 按钮元素 -->  
+        <div style="text-align: center;">
+        <button class="jump-button" onclick="jumpToIndex()">go shopping</button>  
+      
+        <!-- JavaScript函数，用于处理跳转 -->  
+        <script>  
+            function jumpToIndex() {  
+                window.location.href = 'index.html'; // 设置当前窗口的URL为'index.html'  
+            }  
+        </script>  
+       
+
+  
+        
+        </div>  
+    </div>  
+    <script src="script.js"></script>  
+    <footer>  
+        <div class="footer-content" style="margin-top: 20px; text-align: center; padding: 10px 0;">  
+            <p>Fengler</p>  
+        </div>  
+    </footer>
+</body>  
+</html>
